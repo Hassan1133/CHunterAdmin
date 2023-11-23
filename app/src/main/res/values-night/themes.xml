@@ -1,0 +1,9 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CHunterAdmin" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your dark theme here. -->
+
+        <!--        disable white screen before splash screen-->
+    </style>
+
+</resources>

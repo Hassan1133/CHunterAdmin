@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">C Hunter Admin</string>
+    <string name="email_label">Email</string>
+    <string name="password_label">Password</string>
+    <string name="campaigns_heading">Campaigns</string>
+    <string name="users_heading">Users</string>
+    <string name="hello_heading">Hello,</string>
+    <string name="welcome_heading">Welcome back! </string>
+    <string name="admin_heading">Admin</string>
+</resources>

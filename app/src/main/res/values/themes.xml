@@ -1,0 +1,55 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CHunterAdmin" parent="Theme.Material3.Light.NoActionBar">
+        <!--         Customize your light theme here. -->
+        <item name="colorPrimary">@color/my_light_primary</item>
+
+        <!--        disable white screen before splash screen-->
+        <item name="android:windowDisablePreview">true</item>
+
+    </style>
+
+    <style name="Theme.CHunterAdmin" parent="Base.Theme.CHunterAdmin" />
+
+    <style name="ShapeAppearanceOverlay.Material3.FloatingActionButton" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="TextViewBoldFont">
+        <item name="fontFamily">@font/gilroy_bold</item>
+    </style>
+
+    <style name="TextViewRegularFont">
+        <item name="fontFamily">@font/gilroy_regular</item>
+    </style>
+
+    <style name="EditTextRegularFont">
+        <item name="fontFamily">@font/gilroy_regular</item>
+    </style>
+
+    <style name="ButtonBoldFont">
+        <item name="fontFamily">@font/gilroy_bold</item>
+    </style>
+
+    <style name="users_img_corners" parent="">
+        <item name="cornerFamilyTopLeft">rounded</item>
+        <item name="cornerSizeTopLeft">20dp</item>
+        <item name="cornerFamilyBottomLeft">rounded</item>
+        <item name="cornerSizeBottomLeft">20dp</item>
+        <item name="cornerFamilyBottomRight">rounded</item>
+        <item name="cornerSizeBottomRight">20dp</item>
+        <item name="cornerFamilyTopRight">rounded</item>
+        <item name="cornerSizeTopRight">20dp</item>
+    </style>
+
+    <!--    style of search view-->
+    <style name="search_view_style">
+        <item name="android:textColorHint">@color/grey_brown</item>
+        <item name="android:editTextColor">@color/black</item>
+        <item name="android:colorControlNormal">@color/grey_brown</item>
+        <item name="android:textSize">15sp</item>
+        <item name="fontFamily">@font/gilroy_regular</item>
+    </style>
+
+</resources>
